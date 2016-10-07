@@ -1,0 +1,28 @@
+{
+  "name": "@gzzhanghao/worker-farm",
+  "version": "0.1.0",
+  "description": "A worker farm that works",
+  "main": "lib",
+  "scripts": {
+    "watch": "babel src -d lib --watch",
+    "build": "babel src -d lib"
+  },
+  "author": "Jason",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gzzhanghao/worker-farm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gzzhanghao/worker-farm/issues"
+  },
+  "homepage": "https://github.com/gzzhanghao/worker-farm#readme"
+}
