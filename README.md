@@ -74,7 +74,7 @@ module.exports = (content, opts) => {
     // or return a Promise for async tasks
     return babel.transform(content, opts).code
   } catch (error) {
-    // values should be able JSON-serializable
+    // values should be JSON-serializable
     throw { message: error.message, stack: error.stack }
   }
 }
